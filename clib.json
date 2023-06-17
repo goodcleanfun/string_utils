@@ -1,0 +1,13 @@
+{
+  "name": "string_utils",
+  "version": "0.1.0",
+  "repo": "goodcleanfun/string_utils",
+  "description": "Common functions for C strings",
+  "keywords": ["string"],
+  "license": "MIT",
+  "dependencies": {
+    "goodcleanfun/char_array": "*",
+    "clibs/strndup": "*"
+  },
+  "src": ["src/string_utils.h", "src/string_utils.c"]
+}

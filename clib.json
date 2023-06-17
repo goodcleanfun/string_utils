@@ -6,8 +6,9 @@
   "keywords": ["string"],
   "license": "MIT",
   "dependencies": {
+    "goodcleanfun/vector": "*",
     "goodcleanfun/char_array": "*",
     "clibs/strndup": "*"
   },
-  "src": ["src/string_utils.h", "src/string_utils.c"]
+  "src": ["src/string_utils.h", "src/string_utils.c", "src/string_array.h"]
 }
